@@ -5,6 +5,12 @@ See [ansible-roles](https://github.com/davidfischer-ch/ansible-roles) for additi
 
 This repository hosts the role jenkins and may depend of other roles and plugins of the library.
 
+## Status
+
+Not (yet) implemented:
+
+* Role actions such as configure, local-backup, local-restore, ...
+
 ## Dependencies
 
 See [meta](meta/main.yml).
