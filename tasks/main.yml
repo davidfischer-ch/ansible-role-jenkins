@@ -35,7 +35,7 @@
         name: '{{ jenkins_directory }}/{{ item }}'
         owner: '{{ jenkins_daemon_user }}'
         group: '{{ jenkins_daemon_group }}'
-        mode: 0755
+        mode: '755'
         state: directory
       loop:
         - updates
